@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#title {
+    background: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    text-transform: lowercase;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.download_button {
+    margin: 5% 3% 5% 0;
+}
+
+.img_dog {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background: #fff;
+    position: relative;}
+
+.features_descr {
+    text-align: center;
+    padding: 5%;
+}
+.features_icon {
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.features_icon:hover {color:#ff4c68}
+
+
+.features_text {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    text-align: center;
+    background: #ef8172;
+    color:#fff;
+}
+
+.testimonials_img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press_logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+.cta_header {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer_icon {
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .img_dog {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
